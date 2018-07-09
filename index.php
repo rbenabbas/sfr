@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" media="screen" type="text/css" title="Design" href="css/style.css" />
-<title>Identifications</title></head>
+<title>Identification</title></head>
 <body>
 <br />
 <div align="center"> <img src="images/logo.jpg" border="0" width="80" height="80" /> </div>
