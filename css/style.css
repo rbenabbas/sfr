@@ -1,0 +1,104 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	 margin:auto;
+}
+
+.table1{
+        border-left:1px groove #999999;
+        border-right:1px groove #999999;		
+        border-bottom:1px groove #999999;
+		
+}
+
+
+
+.p1{
+
+	height:50px;
+	background-repeat:no-repeat;
+	padding-left:25px;
+	font-family:Arial;
+	font-size:12px;
+	padding-top:-50px;
+}
+
+
+
+/* Les champs des crit�res de recherche*/
+.cherche_champs { width:98%; height: 22px; border: solid 1px #CCCCCC;  background-position: right;}
+
+/*Le conteneur de la recherche */
+.fieldset_recherche {
+              border:1px solid #1F8B67;  
+			 -moz-border-radius:8px;
+         
+			  border-radius:8px;
+			  font-size:13px;  
+			  }
+
+
+
+
+.table_recherche {
+  align:left; 
+
+background-color: #CCCCCC;
+ -moz-border-radius:8px;  
+			 
+			  font-size:12px; 
+
+}
+.summary_data {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding-bottom: 12px;
+    padding-top: 4px;
+
+} 
+.lien{
+text-decoration:none; color:#0000CC;
+
+} 
+.glossary{width : 50%;margin : auto;}
+.glossary a{ float:center; width:22px; height:24px;; line-height:30px; margin:5px 3px; text-align:center; border:1px solid #bdbdbd; background:#f8f8f8 repeat-x; -moz-border-radius:5px; -webkit-border-radius:5px; font-size:14px; font-weight:bold; color:#000; text-decoration:none} .glossary a:hover,.glossary a:focus,.glossary a.selected{ color:#000; padding:5px 3px; font-size:15px; margin:0} 
+.glossary a{ margin:5px 1px } 
+.glossary a:hover,.glossary a:focus,.glossary a.selected{ padding:4px 1px; color:#d6071b !important}/*l'adresse des filiales du groupe*/
+.menu{
+      background-color:#1F8B67;
+	  margin:0;
+	  padding:0;
+	  height:31px;
+	  padding-top:5px;  
+
+}
+
+.menu li{
+         display:inline;
+		 list-style:none;
+		 padding-left:10px;
+		 padding-right:10px;		 
+}
+
+.menu li+li {
+	border-left-style: dotted;
+	border-left-color: #000000;
+	border-left-width: 1px;
+}
+
+.menu a {
+         color: #FFFFFF;
+		 text-decoration:none;
+		 font-family:Arial;
+         font-size:16px;
+}
+
+.menu ul:hover {
+                background-color:#FF00FF;
+}
+
+.menu a:hover {
+               color:#D8D8AD;
+}
